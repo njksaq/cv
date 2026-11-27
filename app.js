@@ -19,7 +19,6 @@
 
   const line = d.getElementById('contactLine');
   if (line) ['email', 'phone', 'city', 'linkedin', 'instagram', 'github'].filter(k => C[k]).forEach((k, i) => {
-    if (i) line.append(' · ');
     if (k === 'city') return line.append(C.city);
     const a = d.createElement('a');
     link(k, a, href[k](C[k]).startsWith('http') ? short(C[k]) : C[k]);
