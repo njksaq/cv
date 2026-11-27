@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Niko Parkkinen – CV</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="cv.css">
+<script src="content.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body data-title="cvTitle">
+
+<div class="bar">
+  <a href="./" data-home data-i="back"></a>
+  <div class="lang" role="group" data-ia="langLabel">
+    <button type="button" data-lang="fi">FI</button>
+    <button type="button" data-lang="en">EN</button>
+  </div>
+  <button type="button" class="pri" data-print data-i="print"></button>
+</div>
+
+<div class="scroll">
+  <article class="page">
+    <header class="top">
+      <div>
+        <h1>Niko Parkkinen</h1>
+        <div class="mark"></div>
+        <p class="sub" data-i="cvSub"></p>
+        <div class="tags"><span data-i="tagFin"></span><span data-i="tagLaw"></span><span>AI</span></div>
+        <p class="contact" id="contactLine"></p>
+      </div>
+      <div class="photo" data-hide><img data-photo alt=""></div>
+    </header>
+
+    <div class="rule"></div>
+
+    <div class="body">
+      <aside class="col">
+        <section><h2 data-i="hSkills"></h2>
+          <ul><li data-i="tk1"></li><li data-i="tk2"></li><li data-i="tk3"></li><li data-i="tk4"></li><li data-i="s5"></li></ul></section>
+        <section><h2 data-i="hTools"></h2>
+          <ul><li>React · JavaScript</li><li>Firebase · Tailwind CSS</li><li>GitHub</li><li>Excel · Microsoft 365</li></ul></section>
+        <section><h2 data-i="hLangs"></h2><p data-i="lang1"></p><p data-i="lang2"></p></section>
+        <section><h2 data-i="hMil"></h2><p data-i="military"></p></section>
+      </aside>
+
+      <div class="col">
+        <section><h2 data-i="hProfile"></h2><p data-i="profile"></p></section>
+
+        <section><h2 data-i="hAi"></h2>
+          <ul class="ai">
+            <li><strong data-i="c1Title"></strong>. <span data-i="c1Desc"></span></li>
+            <li><strong data-i="c2Title"></strong>. <span data-i="c2Desc"></span></li>
+            <li><strong data-i="c3Title"></strong>. <span data-i="c3Desc"></span></li>
+          </ul></section>
+
+        <section><h2 data-i="navEdu"></h2>
+          <div class="line"><strong data-i="degree"></strong><span class="yr" data-i="eduYears"></span></div>
+          <p class="muted" data-i="school"></p>
+          <p class="gap"><strong data-i="finL"></strong> <span data-i="fin"></span></p>
+          <p><strong data-i="lawL"></strong> <span data-i="law"></span></p>
+          <p class="gap"><strong data-i="eduNote"></strong></p></section>
+
+        <section><h2 data-i="hExp"></h2>
+          <div class="line"><strong data-i="e1Title"></strong><span class="yr" data-i="e1Years"></span></div>
+          <p class="muted">CrossFit Harju, Jyväskylä</p>
+          <ul class="ai"><li data-i="e1a"></li><li data-i="e1b"></li></ul>
+          <div class="line job2"><strong data-i="e2Title"></strong><span class="yr">2019–2023</span></div>
+          <p class="muted" data-i="cvE2"></p>
+          <p>– <span data-i="ach1"></span></p>
+          <p>– <span data-i="ach2"></span></p></section>
+      </div>
+    </div>
+
+    <footer class="foot"><span data-i="refs"></span><a data-c="site"></a></footer>
+  </article>
+</div>
+</body>
+</html>
