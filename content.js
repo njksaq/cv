@@ -4,7 +4,7 @@ window.CONTENT = {
   phone: '+358 44 123 4567',
   city: 'Jyväskylä',
   linkedin: 'I need to join LINKEDIN :,(',
-  github: 'https://github.com/njksaq',
+  github: '',
   instagram: 'https://www.instagram.com/njparkkinen/',
   site: '',
   photo: 'profile.jpg',
