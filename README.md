@@ -29,9 +29,9 @@ Ennen torjuin kiekkoja, nyt torjun turhaa käsityötä tekoälyllä. Tässä rep
 Avaa `content.js` GitHubissa, paina kynää ✏️, täytä lainausmerkkien väliin ja paina **Commit changes**:
 
 ```js
-email: 'niko@esimerkki.fi',
-phone: '+358 40 123 4567',
-city: 'Helsinki',
+email: '',
+phone: '',
+city: '',
 linkedin: 'https://www.linkedin.com/in/kayttaja/',
 github: 'https://github.com/kayttaja',
 instagram: 'https://www.instagram.com/kayttaja/',
