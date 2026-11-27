@@ -1,7 +1,7 @@
 window.CONTENT = {
   name: 'Niko Parkkinen',
   email: 'njksaap@gmail.com',
-  phone: '+3584452605030',
+  phone: '+358441234567',
   city: 'Jyväskylä',
   linkedin: 'I need to join LINKEDIN :,(',
   github: 'https://github.com/njksaq',
